@@ -41,3 +41,13 @@
     alert("No, you are not correct!");
     console.log("You are incorrect to the question" + question_four);
    }
+
+  var question_five=prompt("Does Willie only have one kidney?").toUpperCase();
+  if (question_five==="YES" || question_five==="Y") {
+    alert("Yes, he has a larger right kidney to compensate");
+    console.log("You are correct to the question" + question_five);
+    score+=1;
+   } else {
+    alert("No, you are not correct!");
+    console.log("You are incorrect to the question" + question_five);
+   }
