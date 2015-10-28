@@ -34,7 +34,7 @@
 
   var question_four=prompt("Has Willie been to a chicken sacrifice as an offering to Mayan Gods").toUpperCase();
   if (question_four==="YES" || question_four==="Y") {
-    alert("Yes, he attended");
+    alert("Yes, he attended!");
     console.log("You are correct to the question" + question_four);
     score+=1;
    } else {
@@ -44,10 +44,21 @@
 
   var question_five=prompt("Does Willie only have one kidney?").toUpperCase();
   if (question_five==="YES" || question_five==="Y") {
-    alert("Yes, he has a larger right kidney to compensate");
+    alert("Yes, he has a larger right kidney to compensate!");
     console.log("You are correct to the question" + question_five);
     score+=1;
    } else {
     alert("No, you are not correct!");
     console.log("You are incorrect to the question" + question_five);
+   }
+
+  var question_six=prompt("Was Willie a member of Boy Scout Troop 666?").toUpperCase();
+  if (question_six==="YES" || question_six==="Y") {
+    alert("Yes, he was a member!");
+    console.log("You are correct to the question" + question_six);
+    score+=1;
+   } else {
+    alert("No, you are not correct!");
+    console.log("You are incorrect to the question" + question_six);
+   }
    }
