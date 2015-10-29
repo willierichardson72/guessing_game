@@ -1,4 +1,10 @@
   var score=1;
+  var ans1 = document.getElementById("answer1");
+  var ans2 = document.getElementById("answer2");
+  var ans3 = document.getElementById("answer3");
+  var ans4 = document.getElementById("answer4");
+  var ans5 = document.getElementById("answer5");
+  var ans6 = document.getElementById("answer6");
 
   alert("Hola, vamos a jugar un juego de adivinanzas!");
 
@@ -6,11 +12,11 @@
 function question1() {
   var question_one=prompt('Did Willie grow up in Seattle?').toUpperCase();
   if(question_one==="YES" || question_one==="Y") {
-    alert("Yes, Willie grew up in Seattle!");
+    ans1.innerHTML = "Yes, Willie grew up in Seattle!";
     console.log("You are correct to the question" + question_one);
     score+=1;
    } else {
-      alert("No, you are not correct!");
+      ans1.innerHTML = "No, you are not correct!";
       console.log("You are incorrect to the question" + question_one);
    }
 }
@@ -18,11 +24,11 @@ function question1() {
 function question2() {
   var question_two=prompt("Does Willie enjoy the rain?").toUpperCase();
   if(question_two==="YES" || question_two==="Y") {
-    alert("Yes, Willie loves splashing in puddles");
+    ans2.innerHTML = "Yes, Willie loves splashing in puddles";
     console.log("You are correct to the question" + question_two);
     score+=1;
    } else {
-    alert("No, you are not correct!");
+    ans2.innerHTML = "No, you are not correct!";
     console.log("You are incorrect to the question" + question_two);
    }
 }
@@ -30,11 +36,11 @@ function question2() {
 function question3() {
   var question_three=prompt("Does Willie believe in the Sasquatch?").toUpperCase();
   if (question_three==="YES" || question_three==="Y") {
-    alert("Yes, he has seen the Northwest Legend!");
+    ans3.innerHTML = "Yes, he has seen the Northwest Legend!";
     console.log("You are correct to the question" + question_three);
     score+=1;
    } else {
-    alert("No, you are not correct!");
+    ans3.innerHTML = "No, you are not correct!";
     console.log("You are incorrect to the question" + question_three);
    }
 }
@@ -42,11 +48,11 @@ function question3() {
 function question4() {
   var question_four=prompt("Has Willie been to a chicken sacrifice as an offering to Mayan Gods?").toUpperCase();
   if (question_four==="YES" || question_four==="Y") {
-    alert("Yes, he attended!");
+    ans4.innerHTML = "Yes, he attended!";
     console.log("You are correct to the question" + question_four);
     score+=1;
    } else {
-    alert("No, you are not correct!");
+    ans4.innerHTML = "No, you are not correct!";
     console.log("You are incorrect to the question" + question_four);
    }
 }
@@ -54,11 +60,11 @@ function question4() {
 function question5() {
   var question_five=prompt("Does Willie only have one kidney?").toUpperCase();
   if (question_five==="YES" || question_five==="Y") {
-    alert("Yes, he has a larger right kidney to compensate!");
+    ans5.innerHTML = "Yes, he has a larger right kidney to compensate!";
     console.log("You are correct to the question" + question_five);
     score+=1;
    } else {
-    alert("No, you are not correct!");
+    ans5.innerHTML = "No, you are not correct!";
     console.log("You are incorrect to the question" + question_five);
    }
  }
@@ -66,11 +72,11 @@ function question5() {
 function question6 () {
   var question_six=prompt("Was Willie a member of Boy Scout Troop 666?").toUpperCase();
   if (question_six==="YES" || question_six==="Y") {
-    alert("Yes, he was a member!");
+    ans6.innerHTML = "Yes, he was a member!";
     console.log("You are correct to the question" + question_six);
     score+=1;
    } else {
-    alert("No, you are not correct!");
+    ans6.innerHTML ="No, you are not correct!";
     console.log("You are incorrect to the question" + question_six);
    }
 }
