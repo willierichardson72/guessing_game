@@ -15,3 +15,5 @@ Third Wheel: Jared Scarr
 -created variables for answers, linking them to ID attributes
 -added variables to function code
 
+Update for today: October 30, 2015
+I worked with Miranda today on pair programming

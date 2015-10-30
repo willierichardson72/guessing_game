@@ -88,7 +88,7 @@ function question6 () {
     score+=1;
    } else {
     ans6.innerHTML = "No, you are not correct!";
-    ans6.className = "incorect";
+    ans6.className = "incorrect";
     console.log("You are incorrect to the question" + question_six);
    }
 };
