@@ -12,7 +12,7 @@
 function question1() {
   var question_one=prompt('Did Willie grow up in Seattle?').toUpperCase();
   if(question_one==="YES" || question_one==="Y") {
-    ans1.innerHTML = "Yes, Willie grew up in Seattle!";
+    ans1.innerHTML = "Yes, Willie grew up in Seattle!" + '<br><img src="oct30images/Pearl-Jam-w20.jpg" width='200px'>';
     console.log("You are correct to the question" + question_one);
     score+=1;
    } else {
@@ -24,7 +24,7 @@ function question1() {
 function question2() {
   var question_two=prompt("Does Willie enjoy the rain?").toUpperCase();
   if(question_two==="YES" || question_two==="Y") {
-    ans2.innerHTML = "Yes, Willie loves splashing in puddles";
+    ans2.innerHTML = "Yes, Willie loves splashing in puddles" + '<br><img src="oct30images/tumblr_static_splashing_in_puddles_by_tigeress27-d3cd9rt.jpg" width='200px'>';
     console.log("You are correct to the question" + question_two);
     score+=1;
    } else {
@@ -36,7 +36,7 @@ function question2() {
 function question3() {
   var question_three=prompt("Does Willie believe in the Sasquatch?").toUpperCase();
   if (question_three==="YES" || question_three==="Y") {
-    ans3.innerHTML = "Yes, he has seen the Northwest Legend!";
+    ans3.innerHTML = "Yes, he has seen the Northwest Legend!" + '<br><img id="answer3yes" src="sask.jpg" width='200px'>;
     console.log("You are correct to the question" + question_three);
     score+=1;
    } else {
@@ -82,8 +82,9 @@ function question6 () {
 }
 
 question1();
-question2();
-question3();
-question4();
-question5();
-question6();
+window.setTimeout(question2, 500);
+window.setTimeout(question3, 500);
+window.setTimeout(question4, 500);
+window.setTimeout(question5, 500);
+window.setTimeout(question6, 500);
+
